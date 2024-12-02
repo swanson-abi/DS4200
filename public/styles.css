@@ -106,6 +106,10 @@ hr {
     height: 400px;
 }
 
+#more {
+    align-content: center;
+}
+
 #fix {
     width: 800px;
     height: 500px;

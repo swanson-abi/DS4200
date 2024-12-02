@@ -1,13 +1,12 @@
-function toggleMenu() {
+/* function toggleMenu() {
     const dropdownMenu = document.getElementById('dropdownMenu');
     if (dropdownMenu.style.display === 'block') {
         dropdownMenu.style.display = 'none';
     } else {
         dropdownMenu.style.display = 'block';
     }
-}
+} */
 
-// Add event listener to close menu when clicking outside
 document.addEventListener('click', function(event) {
     const dropdownMenu = document.getElementById('dropdownMenu');
     const hamburgerMenu = document.querySelector('.hamburger-menu');
