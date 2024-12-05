@@ -41,7 +41,7 @@
         lens.</p>
     <hr />
     <h3> Data Introduction: Size, Source & Attributes</h3>
-    <p>The dataset contains information on job postings from the city of New York’s government job site.
+    <p>The <a href="https://catalog.data.gov/dataset/nyc-jobs">dataset</a> contains information on job postings from the city of New York’s government job site.
         Each observation contains information on the timeframe of when the job was posted, the salary range,
         a category for the type of job that is created, the number of positions available, and the location
         of the job. The information is collected to help keep track of job postings to help inform New York city
@@ -68,29 +68,30 @@
         The types of interactive visualizations that we chose to use are interactive scatter plots, the use
         of radio buttons, heatmaps, as well as drop down options. </p>
     <hr />
-    <h3>Three Static Data Visualizations:</h3>
+    <h3>Navigating NYC Job Trends: Postings, Salaries, and Take-Home Pay Insights:</h3>
     <div class="photos">
         <img src="static_one.png" alt="First static plot">
+        <p>The main audience for the graph is students and college-aged people in terms of
+            getting
+            a better understanding of when exactly jobs might be posted in the NYC area.</p>
         <br />
         <img id="fix" src="static_two.png" alt="Second static plot">
+        <p>We felt it
+            was important to highlight
+            how the salary ranges have changed over time. We also wanted to be able to identify any trends if applicable and
+            any changes that may occur
+            in conjunction with the job market at that time.</p>
         <br />
         <img id="sep" src="static_four.png" alt="Third static plot">
+        <p>This plot takes a look athe average monthly take
+            home. This is
+            especially important to see through a heatmap given that it makes a visual distinction to the audience.<br />
+            The purpose of these static plots were to take a
+            deeper dive into
+            base salaries, seeing any correlation between salaries increases, and audience specific data.</p>
     </div>
-    <p> For the first static plot, the main audience for the graph is students and college-aged people in terms of
-        getting
-        a better understanding of when exactly jobs might be posted in the NYC area.<br />The second plot, we felt it
-        was important to highlight
-        how the salary ranges have changed over time. We also wanted to be able to identify any trends if applicable and
-        any changes that may occur
-        in conjunction with the job market at that time.<br />The third plot takes a look athe average monthly take
-        home. This is
-        especially important to see through a heatmap given that it makes a visual distinction to the audience.<br />
-        The purpose of these static plots were to take a
-        deeper dive into
-        base salaries, seeing any correlation between salaries increases, and audience specific data.
-    </p>
     <hr />
-    <h3>Two Interaction Data Visualizations:</h3>
+    <h3>Exploring NYC Salary Trends: Distribution and Career Level Insights:</h3>
 
     <iframe src="interactive_plot1.html" width="550" height="450"></iframe>
     <p>The graph shows the number of positions posted for each job posting and the average salary that goes along with
@@ -103,19 +104,15 @@
         positions and between 50,000-100,000 for the average salary.
         Some of the outliers include a manager position with over 300,000 in average salary as well as a few experienced
         non-manager positions that have a high number of positions.
-        There is another small cluster of points that has low number of positiosn and no average salary.</p>
-
-
-
+        There is another small cluster of points that has low number of positions and no average salary.</p>
 
     <iframe src="overview.html" width="275" height="425"></iframe>
-
-
+    <p>We can see the distribution of the average salary per year. </p>
     <iframe src="zoom.html" width="1050" height="450"></iframe>
-    <p>From the first plot we can see the distribution of the average salary per year. Additionally, we can see in the
-        second plot a line plot of the mean of the each position's average salary by the career level
+    <p>We can see the mean of the each position's average salary by the career level
         and how it has changed over time. Users can select a year that they might want to look at in this line plot by
-        selected a year from the input drop down.
+        selected a year from the input drop down.</p>
+    <p>
         These 2 graphs combine can show us if the distribution/shape of a boxplot of a specific year may have been
         influenced heavily by a specific career level.
         For example, when I select the year 2024, none of the lines intersect and in the boxplot, there is much more
