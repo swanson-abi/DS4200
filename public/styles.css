@@ -96,6 +96,12 @@ hr {
     align-items: center;
 }
 
+.interactive {
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
 .photos img {
     width: 600px;
     height: 300px;
